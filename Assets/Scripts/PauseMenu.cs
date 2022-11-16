@@ -60,6 +60,9 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
         isPaused = false;
+        FindObjectOfType<GameSession>().ResetLives();
+        FindObjectOfType<GameSession>().ResetScore();
+        FindObjectOfType<ScenePersist>().ResetScenePersist();
         pauseMenu.SetActive(false);
     }
 

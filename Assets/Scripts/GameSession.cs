@@ -44,6 +44,18 @@ public class GameSession : MonoBehaviour
         }
     }
 
+    public void ResetLives()
+    {
+        playerLives = 3;
+        livesText.text = playerLives.ToString();
+    }
+
+    public void ResetScore()
+    {
+        score = 0;
+        scoreText.text = score.ToString();
+    }
+
     public void AddToScore(int pointsToAdd)
     {
         score += pointsToAdd;

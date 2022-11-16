@@ -85019,11 +85019,11 @@ PrefabInstance:
       objectReference: {fileID: 1332552633}
     - target: {fileID: 463607801983336299, guid: e6324cf3e4d57a340a356a23fee18210, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.422161
+      value: -17.308502
       objectReference: {fileID: 0}
     - target: {fileID: 463607801983336299, guid: e6324cf3e4d57a340a356a23fee18210, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.140161
+      value: -6.1387258
       objectReference: {fileID: 0}
     - target: {fileID: 463607801983336340, guid: e6324cf3e4d57a340a356a23fee18210, type: 3}
       propertyPath: orthographic size
@@ -85182,6 +85182,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1303396460, guid: 7b3ba59382e5a3b4ea21395a8dfa2440, type: 3}
+      propertyPath: m_margin.z
+      value: 105.23803
+      objectReference: {fileID: 0}
     - target: {fileID: 6859347765373582150, guid: 7b3ba59382e5a3b4ea21395a8dfa2440, type: 3}
       propertyPath: m_Name
       value: GameSession
