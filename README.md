@@ -1,3 +1,3 @@
 # Stanley-Parable-Hotel
-Student Project \n
+Student Project
 Look for and download the "Final Build" folder 
